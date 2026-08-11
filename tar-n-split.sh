@@ -6,6 +6,8 @@
 #PBS -j oe
 #PBS -N tns-flat10-zec
 
+cd $PBS_O_WORKDIR
+
 tardir=tars
 tarname=`basename $wrapdir`
 
