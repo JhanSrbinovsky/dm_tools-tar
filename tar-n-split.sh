@@ -12,7 +12,7 @@ tarname=`basename $wrapdir`
 if [[ ! -f $tardir/$tarname.tar.part-* ]]; then
   echo "creating tar files: $tardir/$tarname.tar.part-*"
   tar -C `dirname $wrapdir` -cvf - $tarname \
-    | split -d -b 2GB - "$tardir/$tarname.tar.part-"
+    | split -d -b 200GB - "$tardir/$tarname.tar.part-"
   echo "tars created successfully"
 else
   echo "$tardir/$tarname.tar.part-* already exists, exiting"
