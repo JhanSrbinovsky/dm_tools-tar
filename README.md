@@ -20,6 +20,21 @@ OR
 ```
 $ ./tar-n-split_wrapper.sh 
 ```
+Notes:jxs599:: edit tar-n-split_wrapper.sh - specify experiment directory to tar. i.e. set $p73exp
+            :: edit tar-n-split.sh         - specify jobname to display that IDs experiment
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 ### `rsync_parallel.sh`
