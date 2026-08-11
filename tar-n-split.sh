@@ -4,7 +4,7 @@
 #PBS -l ncpus=1,walltime=24:00:00,mem=8Gb,wd
 #PBS -l storage=scratch/p73+gdata/p73
 #PBS -j oe
-#PBS -N tar-n-split
+#PBS -N tns-flat10-zec
 
 tardir=tars
 tarname=`basename $wrapdir`
