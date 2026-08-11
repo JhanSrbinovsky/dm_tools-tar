@@ -4,7 +4,7 @@
 #     we are archiving production runs (as per experiment) from p73 (@ $p73archive below)
 
 ### user input req^d ###
-p73exp=esm-flat10_zec
+p73exp=esm-flat10-zec
 ### END user input   ###
 
 #production archive is here 
